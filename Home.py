@@ -25,7 +25,7 @@ st.set_page_config(layout="wide")
 show_pages(
     [
         Page("Home.py", "시군구별 빈집 예측 종합서비스", "🏡"),
-        Page("pages/Chatbot.py", "빈집 위험도 보고서 챗봇", "🤖"),
+        # Page("pages/Chatbot.py", "빈집 위험도 보고서 챗봇", "🤖"),
     ]
 )
 
