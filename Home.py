@@ -57,8 +57,8 @@ img_path10 = f"{IMAGE_PATH}graph6.png"
 
 img_path11 = f"{IMAGE_PATH}graph7.png"
 img_path12 = f"{IMAGE_PATH}graph8.png"
-# img_path11 = f"{IMAGE_PATH}graph6.png"
-# img_path11 = f"{IMAGE_PATH}graph6.png"
+img_path13 = f"{IMAGE_PATH}빈집비율.png"
+img_path14 = f"{IMAGE_PATH}빈집지수.png"
 # img_path11 = f"{IMAGE_PATH}graph6.png"
 
 
@@ -229,6 +229,12 @@ if selected_survey == "🏡시군구별 빈집 예측 종합서비스":
             clamp=False                     
             )
 
+            st.markdown("#### [6. 시군구별 빈집비율&빈집지수 시각화]")
+            st.image(Image.open(img_path13), caption="(6) 2023년 시군구별 빈집비율_평균",
+            width=600,                      
+            clamp=False                     
+            )
+        
 
         with col2:
 
@@ -243,14 +249,6 @@ if selected_survey == "🏡시군구별 빈집 예측 종합서비스":
             width=600,                      
             clamp=False                    
             )
-            
-
-            # st.markdown("#### [모델 성능 비교]")
-            # st.image(Image.open(img_path5), caption="(2) 모델 성능 비교",
-            # width=600,                      # 픽셀 단위로 직접 지정할 수도 있고
-            # clamp=False                      # 픽셀 값 0~1 범위를 벗어나면 잘라냅니다(옵션)
-            # )
-
 
             st.markdown("#### [3. 요인분석, PCA 등 빈집지수 생성]")
             st.image(Image.open(img_path7), caption="(3) 시도별 빈집비율 가중치 비교",
@@ -275,11 +273,8 @@ if selected_survey == "🏡시군구별 빈집 예측 종합서비스":
             clamp=False                     
             )
 
-
-            # st.image(
-            #     Image.open(img_path4),                        # PIL.Image 객체
-            #     caption="(2) 모델 성능 비교",
-            #     width=600,                      # 픽셀 단위로 직접 지정할 수도 있고
-            #     clamp=False                      # 픽셀 값 0~1 범위를 벗어나면 잘라냅니다(옵션)
-            # )
-
+            st.markdown("#### [6. 시군구별 빈집비율&빈집지수 시각화]")
+            st.image(Image.open(img_path14), caption="(6) 2023년 시군구별 빈집지수_평균",
+            width=600,                      
+            clamp=False                     
+            )
