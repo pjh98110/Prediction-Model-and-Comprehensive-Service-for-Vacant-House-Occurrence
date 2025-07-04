@@ -229,7 +229,7 @@ if selected_survey == "🏡시군구별 빈집 예측 종합서비스":
             clamp=False                     
             )
 
-            st.markdown("#### [6. 시군구별 빈집비율&빈집지수 시각화]")
+            st.markdown("#### [6. 시군구별 빈집비율 시각화]")
             st.image(Image.open(img_path13), caption="(6) 2023년 시군구별 빈집비율_평균",
             width=600,                      
             clamp=False                     
@@ -273,7 +273,7 @@ if selected_survey == "🏡시군구별 빈집 예측 종합서비스":
             clamp=False                     
             )
 
-            st.markdown("#### [6. 시군구별 빈집비율&빈집지수 시각화]")
+            st.markdown("#### [6. 시군구별 빈집지수 시각화]")
             st.image(Image.open(img_path14), caption="(6) 2023년 시군구별 빈집지수_평균",
             width=600,                      
             clamp=False                     
