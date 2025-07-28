@@ -24,7 +24,7 @@ st.set_page_config(layout="wide")
 
 show_pages(
     [
-        Page("Home.py", "시군구별 빈집 예측 종합서비스", "🏡"),
+        Page("Home.py", "시군구별 빈집의 유형별 빈집 예측 종합서비스", "🏡"),
         # Page("pages/Chatbot.py", "빈집 위험도 보고서 챗봇", "🤖"),
     ]
 )
@@ -142,7 +142,7 @@ colored_header(
 
 selected_survey = st.selectbox(
     "사용할 서비스를 선택하세요.",
-    options=["🏡시군구별 빈집 예측 종합서비스", ], # "시군구별 빈집", 
+    options=["🏡시군구별 빈집의 유형별 빈집비율 예측 종합서비스", ], # "시군구별 빈집", 
     placeholder="하나를 선택하세요.",
     help="선택한 모델에 따라 다른 분석 결과를 제공합니다."
 )
@@ -150,7 +150,7 @@ selected_survey = st.selectbox(
 st.session_state.selected_survey = selected_survey
 
 
-if selected_survey == "🏡시군구별 빈집 예측 종합서비스":
+if selected_survey == "🏡시군구별 빈집의 유형별 빈집 예측 종합서비스":
 
     st.markdown("### [샘플 데이터 확인]")
     st.markdown("출처: MDIS, 통계청(KOSIS), 부동산 통계정보") 
