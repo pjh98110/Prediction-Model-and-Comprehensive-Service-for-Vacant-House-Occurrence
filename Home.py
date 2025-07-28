@@ -150,7 +150,7 @@ selected_survey = st.selectbox(
 st.session_state.selected_survey = selected_survey
 
 
-if selected_survey == "🏡시군구별 빈집의 유형별 빈집 예측 종합서비스":
+if selected_survey == "🏡시군구별 빈집의 유형별 빈집비율 예측 종합서비스":
 
     st.markdown("### [샘플 데이터 확인]")
     st.markdown("출처: MDIS, 통계청(KOSIS), 부동산 통계정보") 
