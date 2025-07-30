@@ -10,3 +10,5 @@ requests
 shap
 matplotlib
 scikit-learn
+google
+google.generativeai
